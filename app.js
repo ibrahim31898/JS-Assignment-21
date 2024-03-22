@@ -111,25 +111,25 @@ document.write("Occurrences of 'the': " + count);
 
 // Chapter 21 (Changing Case)
 
-// 1. Correct the statement to call the toLowerCase() method
+// 1. 
 var allLower = userInput.toLowerCase();
 
-// 2. Convert string represented by x to lower-case
+// 2. 
 x = x.toLowerCase();
 
-// 3. Convert string represented by y to upper-case
+// 3. 
 y = y.toUpperCase();
 
-// 4. Convert string represented by a variable to lower-case and assign to a new variable
+// 4.
 var lowerCaseString = originalString.toLowerCase();
 
-// 5. Convert string represented by an array element to lower-case and assign to a new variable
+// 5. 
 var lowerCaseElement = arrayElement.toLowerCase();
 
-// 6. Display upper-case version of a variable in an alert
+// 6. 
 alert(cityName.toUpperCase());
 
-// 7. Convert cityName to Capitalisation format
+// 7. 
 var cityName = "kaRacHi";
 cityName = cityName.charAt(0).toUpperCase() + cityName.slice(1).toLowerCase();
 
