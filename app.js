@@ -38,6 +38,8 @@ document.write("After replacement: " + message.replace(/and/g, "&"));
 
 // 9. 
 var strNumber = "472";
+document.write("Value:"+strNumber + "<br>")
+document.write("type:"+typeof strNumber +"<br>"+"<br>")
 var number = parseInt(strNumber);
 document.write("Value: " + number + "<br>");
 document.write("Type: " + typeof(number));
